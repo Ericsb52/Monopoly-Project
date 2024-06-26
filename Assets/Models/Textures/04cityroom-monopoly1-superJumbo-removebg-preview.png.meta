@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -147,18 +147,194 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 04cityroom-monopoly1-superJumbo-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 19
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6da5f49c73049948a2e4204d3fecb0a
+      internalID: 1357669887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04cityroom-monopoly1-superJumbo-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 18
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1089bb71847ff4d85a2241e4f1e426
+      internalID: -903166082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04cityroom-monopoly1-superJumbo-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 17
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e891836277676e5499d2c50603114817
+      internalID: -1160712844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04cityroom-monopoly1-superJumbo-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 198
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d726b5a274de6ff48a7a9ac0dc943c47
+      internalID: 1324234779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04cityroom-monopoly1-superJumbo-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 17
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915c3d23a9c42fb43b07bb6eae47bf27
+      internalID: 1990021514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04cityroom-monopoly1-superJumbo-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 143
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c19cfc6f1059ca4d8ffceb5f1826595
+      internalID: 1843002638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04cityroom-monopoly1-superJumbo-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 195
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80917728cf75f8b48b0c80bf21bfdc20
+      internalID: -766161122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 04cityroom-monopoly1-superJumbo-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 201
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694eee33968df9045ad018e93470788b
+      internalID: 98522261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c6470f75ab0d3e84dace119a070f4a1a
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      04cityroom-monopoly1-superJumbo-removebg-preview_0: 1357669887
+      04cityroom-monopoly1-superJumbo-removebg-preview_1: -903166082
+      04cityroom-monopoly1-superJumbo-removebg-preview_2: -1160712844
+      04cityroom-monopoly1-superJumbo-removebg-preview_3: 1324234779
+      04cityroom-monopoly1-superJumbo-removebg-preview_4: 1990021514
+      04cityroom-monopoly1-superJumbo-removebg-preview_5: 1843002638
+      04cityroom-monopoly1-superJumbo-removebg-preview_6: -766161122
+      04cityroom-monopoly1-superJumbo-removebg-preview_7: 98522261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

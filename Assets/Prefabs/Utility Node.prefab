@@ -140,7 +140,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Water    Works
+  m_text: Utility Node
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -475,6 +475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9128939703762395314}
+  - component: {fileID: 2098170195334699738}
   m_Layer: 0
   m_Name: Utility Node
   m_TagString: Untagged
@@ -498,6 +499,23 @@ Transform:
   - {fileID: 2490579246448494193}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2098170195334699738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292375620265643363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Utility Node
+  type: 1
+  nameText: {fileID: 7678134591715450491}
+  costText: {fileID: 5881413802638561291}
+  ownerText: {fileID: 5408796239534293535}
 --- !u!1 &3557083276701610809
 GameObject:
   m_ObjectHideFlags: 0

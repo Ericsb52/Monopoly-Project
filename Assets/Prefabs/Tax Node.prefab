@@ -475,6 +475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2910004800183102765}
+  - component: {fileID: -3022548451793837404}
   m_Layer: 0
   m_Name: Tax Node
   m_TagString: Untagged
@@ -498,6 +499,23 @@ Transform:
   - {fileID: 3208550363260845622}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3022548451793837404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6854898041411368115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Tax Node
+  type: 3
+  nameText: {fileID: 4683932230633887840}
+  costText: {fileID: 6478724722598104425}
+  ownerText: {fileID: 0}
 --- !u!1 &7705621527673297157
 GameObject:
   m_ObjectHideFlags: 0

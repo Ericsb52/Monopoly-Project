@@ -534,7 +534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reading RailRoad
+  m_text: Rail Road Node
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -791,6 +791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6797598693888048203}
+  - component: {fileID: -4624717042538490523}
   m_Layer: 0
   m_Name: Rail Road Node
   m_TagString: Untagged
@@ -814,6 +815,23 @@ Transform:
   - {fileID: 9118867713305803553}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4624717042538490523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6934343483653341065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Rail Road Node
+  type: 2
+  nameText: {fileID: 1889325580952245571}
+  costText: {fileID: 2694882378685431234}
+  ownerText: {fileID: 3798043317457554499}
 --- !u!1 &8610451153235119467
 GameObject:
   m_ObjectHideFlags: 0

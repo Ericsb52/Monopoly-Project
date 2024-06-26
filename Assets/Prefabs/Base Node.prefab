@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8395898252076704500}
+  - component: {fileID: -8397545239943787025}
   m_Layer: 0
   m_Name: Base Node
   m_TagString: Untagged
@@ -32,6 +33,40 @@ Transform:
   - {fileID: 2278972948049008016}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8397545239943787025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152313650358985096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameBoard: {fileID: 0}
+  name: Base Node
+  type: 0
+  nameText: {fileID: 2418514767835855245}
+  costText: {fileID: 2228750383853266364}
+  ownerText: {fileID: 8989026263618960819}
+  images:
+  - {fileID: 9015403199361911015}
+  - {fileID: 579933949407068192}
+  - {fileID: 153395749721088918}
+  colors:
+  - {r: 0.22352943, g: 0.14117648, b: 0.48627454, a: 1}
+  - {r: 0.6666667, g: 0.87843144, b: 0.9803922, a: 1}
+  - {r: 0.85098046, g: 0.227451, b: 0.5882353, a: 1}
+  - {r: 0.9686275, g: 0.5803922, b: 0.1137255, a: 1}
+  - {r: 0.9294118, g: 0.10588236, b: 0.14117648, a: 1}
+  - {r: 0.9960785, g: 0.9490197, b: 0, a: 1}
+  - {r: 0.121568635, g: 0.69803923, b: 0.3529412, a: 1}
+  - {r: 0, g: 0.44705886, b: 0.73333335, a: 1}
+  propColor: {r: 0.22352943, g: 0.14117648, b: 0.48627454, a: 1}
+  colorField: {fileID: 579933949407068192}
+  route_pos: 0
 --- !u!1 &1403603293372332552
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.18431373, g: 0.09411766, b: 0.3803922, a: 1}
+  m_Color: {r: 0.22352943, g: 0.14117648, b: 0.48627454, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -670,7 +705,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mediterranean Avenue
+  m_text: Base Node
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
