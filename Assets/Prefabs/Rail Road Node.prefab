@@ -321,7 +321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $ 100
+  m_text: $ 200
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -827,11 +827,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Rail Road Node
+  gameBoard: {fileID: 0}
   type: 2
+  name: Rail Road Node
+  ownerName: 
+  propColor: {r: 0, g: 0, b: 0, a: 0}
+  route_pos: 0
+  price: 200
+  currentRent: 0
+  baseRent: 25
+  rentWithHouses: 3200000064000000c8000000
+  isMotgaged: 0
+  mortgageValue: 100
+  baseColor: {r: 0.8039216, g: 0.9019608, b: 0.8156863, a: 1}
+  mortgageColor: {r: 0.5647059, g: 0.5647059, b: 0.5647059, a: 1}
+  textfields:
+  - {fileID: 1889325580952245571}
+  - {fileID: 2694882378685431234}
+  - {fileID: 3798043317457554499}
+  images:
+  - {fileID: 7064352405686850986}
+  - {fileID: 3277685618718849366}
+  - {fileID: 2422073755826140829}
+  colors: []
   nameText: {fileID: 1889325580952245571}
   costText: {fileID: 2694882378685431234}
   ownerText: {fileID: 3798043317457554499}
+  colorField: {fileID: 0}
+  ownerField: {fileID: 2422073755826140829}
+  background: {fileID: 7064352405686850986}
 --- !u!1 &8610451153235119467
 GameObject:
   m_ObjectHideFlags: 0

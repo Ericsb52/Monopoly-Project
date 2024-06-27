@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7873488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7873489}
+  m_Layer: 0
+  m_Name: ------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7873489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873488}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &61299281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131,8 +162,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Kentucky Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9294118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 875
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1050
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9294118
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Kentucky Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Kentucky Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -193,6 +300,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: name
+      value: B. & O. Railroad
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: route_pos
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889325580952245571, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_text
+      value: B. & O. Railroad
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694882378685431234, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_text
+      value: $ 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6797598693888048203, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
@@ -255,8 +382,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Tennessee Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.1137255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9686275
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 950
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9686275
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Tennessee Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Tennessee Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -385,9 +588,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: 2098170195334699738, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: price
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098170195334699738, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: route_pos
+      value: 28
+      objectReference: {fileID: 0}
     - target: {fileID: 3292375620265643363, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
       propertyPath: m_Name
       value: Utility Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881413802638561291, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: m_text
+      value: $ 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678134591715450491, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: m_fontSize
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 9128939703762395314, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -447,8 +666,88 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: St. Charles Place
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: currentRent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.227451
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.85098046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 625
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.227451
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.85098046
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: St. Charles Place
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: St. Charles Place
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -501,6 +800,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 165942801}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &165942803 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 165942801}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &173032674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -509,8 +819,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Connecticut Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.9803922
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.87843144
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.87843144
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Connecticut Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Connecticut Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -563,6 +949,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 173032674}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &173032676 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 173032674}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &206936703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -571,9 +968,89 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Boardwalk
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.73333335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.44705886
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 1400
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.73333335
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.44705886
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
       value: Boardwalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: Boardwalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_fontSize
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -719,6 +1196,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &243070353 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+  m_PrefabInstance: {fileID: 78639992}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &319808676 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 61299281}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &363951943 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 121051635}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &405022777
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +1238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 405022778}
+  - component: {fileID: 405022779}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -790,6 +1301,172 @@ Transform:
   - {fileID: 206936704}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &405022779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405022777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb08d09fe11ff84a87ab7242f048177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  route:
+  - {fileID: 1808386207}
+  - {fileID: 1824140646}
+  - {fileID: 1730486466}
+  - {fileID: 8849868970891492413}
+  - {fileID: 2016643548021740027}
+  - {fileID: 742773591}
+  - {fileID: 616227958}
+  - {fileID: 1333864443}
+  - {fileID: 1707466178}
+  - {fileID: 173032676}
+  - {fileID: 1645885035}
+  - {fileID: 165942803}
+  - {fileID: 1047147020}
+  - {fileID: 2016054777}
+  - {fileID: 1462537781}
+  - {fileID: 1751906894}
+  - {fileID: 2104424927}
+  - {fileID: 1544817144}
+  - {fileID: 363951943}
+  - {fileID: 1995369495}
+  - {fileID: 1936070164}
+  - {fileID: 319808676}
+  - {fileID: 2020102681}
+  - {fileID: 1826354205}
+  - {fileID: 1716248426}
+  - {fileID: 243070353}
+  - {fileID: 1899828003}
+  - {fileID: 1003193946}
+  - {fileID: 462775220}
+  - {fileID: 1484623992}
+  - {fileID: 2103798375}
+  - {fileID: 1972066216}
+  - {fileID: 775046220}
+  - {fileID: 1648713776}
+  - {fileID: 2005925177}
+  - {fileID: 2135200976}
+  - {fileID: 1608678193}
+  - {fileID: 1710662545}
+  - {fileID: 1550484790}
+  - {fileID: 1759363730}
+--- !u!1 &405702918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 405702919}
+  - component: {fileID: 405702922}
+  - component: {fileID: 405702921}
+  - component: {fileID: 405702920}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &405702919
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405702918}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1236167010}
+  m_Father: {fileID: 938939514}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.51}
+  m_SizeDelta: {x: 27, y: 27}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &405702920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405702918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &405702921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405702918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &405702922
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405702918}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &462775220 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2098170195334699738, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+  m_PrefabInstance: {fileID: 147071796}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &616227956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -798,8 +1475,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Oriental Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.9803922
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.87843144
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.87843144
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Oriental Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Oriental Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -852,6 +1605,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 616227956}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &616227958 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 616227956}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &660431853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -860,8 +1624,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Ventnor Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.9490197
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 330
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 975
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1150
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Ventnor Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Ventnor Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -922,6 +1762,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: name
+      value: Reading Railroad
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: route_pos
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: isMotgaged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889325580952245571, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_text
+      value: Reading Railroad
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694882378685431234, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_text
+      value: $ 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6797598693888048203, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16
@@ -976,6 +1840,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6797598693888048203, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
   m_PrefabInstance: {fileID: 742773589}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &742773591 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+  m_PrefabInstance: {fileID: 742773589}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &769375578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -984,9 +1859,85 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Illinois    Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9294118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 925
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1100
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9294118
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
-      value: Illinois Avenue
+      value: Illinois    Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: Illinois    Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1046,8 +1997,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: North Carolina Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.121568635
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 390
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 1100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1275
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.121568635
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: North Carolina Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: North Carolina Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -1100,6 +2127,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 775046218}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &775046220 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 775046218}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &789826739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 789826740}
+  m_Layer: 0
+  m_Name: '------------ '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &789826740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789826739}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &876647758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1108,9 +2177,89 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: States    Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: currentRent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.227451
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.85098046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 625
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.227451
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.85098046
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
-      value: States Avenue
+      value: States    Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: States    Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1170,8 +2319,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Marvin Gardens
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.9490197
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 850
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 1025
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Marvin Gardens
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Marvin Gardens
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -1224,6 +2449,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 887632375}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &938939510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938939514}
+  - component: {fileID: 938939513}
+  - component: {fileID: 938939512}
+  - component: {fileID: 938939511}
+  m_Layer: 0
+  m_Name: Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &938939511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938939510}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &938939512
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938939510}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6d1658b0685032f4e91f8f1b18264081, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &938939513
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938939510}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &938939514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938939510}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16, y: -0.1, z: 16}
+  m_LocalScale: {x: 27, y: 0.2, z: 27}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 405702919}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &973757448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1232,6 +2563,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: name
+      value: Jail Node
+      objectReference: {fileID: 0}
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: type
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: route_pos
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1578388784859056338, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
       propertyPath: m_Name
       value: Jail Node
@@ -1290,6 +2633,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8158890637542957978, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
   m_PrefabInstance: {fileID: 973757448}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1003193946 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 660431853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1039469744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1298,8 +2652,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: New York Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.1137255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9686275
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9686275
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: New York Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: New York Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -1360,6 +2790,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: 2098170195334699738, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: name
+      value: Electric Company
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098170195334699738, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: price
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098170195334699738, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: route_pos
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098170195334699738, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: isMotgaged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3292375620265643363, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
       propertyPath: m_Name
       value: Electric Company
@@ -1388,10 +2834,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5881413802638561291, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: m_text
+      value: $ 150
+      objectReference: {fileID: 0}
     - target: {fileID: 6009193605045390698, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -220593645, guid: 40cf0c04061574f499ae8ac947d4680e, type: 3}
+    - target: {fileID: 7678134591715450491, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+      propertyPath: m_text
+      value: Electric Company
+      objectReference: {fileID: 0}
     - target: {fileID: 9128939703762395314, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32
@@ -1442,6 +2896,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9128939703762395314, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
   m_PrefabInstance: {fileID: 1047147018}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1047147020 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2098170195334699738, guid: 7e73230c2d98acb42b50ce2a6eeb1c4c, type: 3}
+  m_PrefabInstance: {fileID: 1047147018}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1056685718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1450,6 +2915,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: 2124917064152628710, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: m_text
+      value: Community Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: name
+      value: Community Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: route_pos
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32
@@ -1512,9 +2993,85 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Park           Place
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.73333335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.44705886
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 1100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 1300
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.73333335
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.44705886
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
-      value: Park Place
+      value: Park           Place
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: Park           Place
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1566,6 +3123,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 1111162036}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1120128729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1120128730}
+  m_Layer: 0
+  m_Name: '------------ '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1120128730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120128729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1236167009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1236167010}
+  - component: {fileID: 1236167012}
+  - component: {fileID: 1236167011}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1236167010
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236167009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 405702919}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1236167011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236167009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: acbd059914f38b343a8f2094bd26056d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1236167012
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236167009}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1287134199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1574,6 +3237,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: 2124917064152628710, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: m_text
+      value: Chance
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: name
+      value: Chance
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: route_pos
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22
@@ -1724,6 +3399,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1333864443 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+  m_PrefabInstance: {fileID: 1287134199}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1462537779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1732,8 +3418,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Virginia Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.227451
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.85098046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.227451
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.85098046
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Virginia Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Virginia Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -1786,6 +3548,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 1462537779}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1462537781 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 1462537779}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1484623992 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 887632375}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1544817144 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+  m_PrefabInstance: {fileID: 1056685718}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1550484788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1794,6 +3589,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: name
+      value: Luxury Tax
+      objectReference: {fileID: 0}
+    - target: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: price
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: baseRent
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: route_pos
+      value: 38
+      objectReference: {fileID: 0}
     - target: {fileID: 1979101272487641885, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
       propertyPath: m_LocalRotation.w
       value: -0.7071068
@@ -1850,6 +3661,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4683932230633887840, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: m_text
+      value: Luxury Tax
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478724722598104425, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: m_text
+      value: Pay $ 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6854898041411368115, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
       propertyPath: m_Name
       value: Luxury Tax
@@ -1868,6 +3687,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2910004800183102765, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
   m_PrefabInstance: {fileID: 1550484788}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1550484790 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+  m_PrefabInstance: {fileID: 1550484788}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1608678191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1876,6 +3706,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: 2124917064152628710, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: m_text
+      value: 'Chance '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: name
+      value: 'Chance '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: route_pos
+      value: 36
+      objectReference: {fileID: 0}
     - target: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1950,6 +3792,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
   m_PrefabInstance: {fileID: 1608678191}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1608678193 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+  m_PrefabInstance: {fileID: 1608678191}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1633022215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1958,8 +3811,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Indiana Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9294118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 875
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1050
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.14117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9294118
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Indiana Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Indiana Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -2012,6 +3941,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 1633022215}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1645885035 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+  m_PrefabInstance: {fileID: 973757448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1648713774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2020,6 +3960,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: 2124917064152628710, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: m_text
+      value: Community Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: name
+      value: Community Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: route_pos
+      value: 33
+      objectReference: {fileID: 0}
     - target: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2074,6 +4030,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
   m_PrefabInstance: {fileID: 1648713774}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1648713776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+  m_PrefabInstance: {fileID: 1648713774}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1700619795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700619796}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700619796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700619795}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07038984, y: 17.470417, z: 8.80158}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1707466176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2082,8 +4080,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Vermont Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.9803922
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.87843144
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.87843144
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6666667
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Vermont Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Vermont Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -2136,6 +4210,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 1707466176}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1707466178 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 1707466176}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1710662545 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 1111162036}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1716248426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 769375578}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1728458403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1728458404}
+  m_Layer: 0
+  m_Name: '------------ '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1728458404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728458403}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1730486464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2144,6 +4282,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: 2124917064152628710, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: m_text
+      value: Community Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: name
+      value: Community Chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: route_pos
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7
@@ -2198,6 +4352,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
   m_PrefabInstance: {fileID: 1730486464}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1730486466 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+  m_PrefabInstance: {fileID: 1730486464}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1751906892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2206,6 +4371,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: name
+      value: Pennsylvania Railroad
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: route_pos
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889325580952245571, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_text
+      value: Pennsylvania Railroad
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694882378685431234, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_text
+      value: $ 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6797598693888048203, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32
@@ -2260,6 +4445,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6797598693888048203, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
   m_PrefabInstance: {fileID: 1751906892}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1751906894 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+  m_PrefabInstance: {fileID: 1751906892}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1759363730 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 206936703}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1808386205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2268,6 +4475,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: name
+      value: Go Node
+      objectReference: {fileID: 0}
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: type
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1578388784859056338, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
       propertyPath: m_Name
       value: Go Node
@@ -2322,6 +4537,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8158890637542957978, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
   m_PrefabInstance: {fileID: 1808386205}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1808386207 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+  m_PrefabInstance: {fileID: 1808386205}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1808722032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2330,8 +4556,64 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Mediterranean Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: isMotgaged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Mediterranean Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Mediterranean Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -2384,6 +4666,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 1808722032}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1824140646 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 1808722032}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1826354205 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 1633022215}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1899828001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2392,8 +4696,88 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Atlantic Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: currentRent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.9490197
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 330
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 975
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1150
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9490197
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9960785
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Atlantic Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Atlantic Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -2446,6 +4830,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 1899828001}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1899828003 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 1899828001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1936070162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2454,6 +4849,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: name
+      value: Free Parking Node
+      objectReference: {fileID: 0}
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: type
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: route_pos
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1578388784859056338, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
       propertyPath: m_Name
       value: Free Parking Node
@@ -2512,6 +4919,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8158890637542957978, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
   m_PrefabInstance: {fileID: 1936070162}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1936070164 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+  m_PrefabInstance: {fileID: 1936070162}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1972066214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2520,8 +4938,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Pacific Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.121568635
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 390
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 1100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1275
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.121568635
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Pacific Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Pacific Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -2574,6 +5068,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 1972066214}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1972066216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 1972066214}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1995369495 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 1039469744}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2005925175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2582,8 +5098,88 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Pennsylvania Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 320
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: currentRent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.121568635
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 1400
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.121568635
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: Pennsylvania Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 320
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: Pennsylvania Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -2636,6 +5232,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 2005925175}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2005925177 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 2005925175}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2016054777 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 876647758}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2020102679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2644,6 +5262,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: 2124917064152628710, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: m_text
+      value: Chance
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: name
+      value: Chance
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+      propertyPath: route_pos
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25
@@ -2714,6 +5344,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5229540536738223187, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
   m_PrefabInstance: {fileID: 2020102679}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2020102681 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4779073830725599816, guid: f3ae8efebdc3d494d90414c32a7465e8, type: 3}
+  m_PrefabInstance: {fileID: 2020102679}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2103798373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2722,6 +5363,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: name
+      value: Goto Jail Node
+      objectReference: {fileID: 0}
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: type
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+      propertyPath: route_pos
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1578388784859056338, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
       propertyPath: m_Name
       value: Goto Jail Node
@@ -2780,6 +5433,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8158890637542957978, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
   m_PrefabInstance: {fileID: 2103798373}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2103798375 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8064006125296856032, guid: 186850e81fb808c48a5eb383d73ade5a, type: 3}
+  m_PrefabInstance: {fileID: 2103798373}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2104424925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2788,8 +5452,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: St. James Place
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.b
+      value: 0.1137255
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.g
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: propColor.r
+      value: 0.9686275
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 750
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 950
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 579933949407068192, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9686275
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
+      value: St. James Place
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
       value: St. James Place
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
@@ -2842,6 +5582,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 2104424925}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2104424927 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 2104424925}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2135200974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2850,6 +5601,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: name
+      value: Short Line
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: route_pos
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889325580952245571, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_text
+      value: Short Line
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889325580952245571, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_fontSize
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694882378685431234, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+      propertyPath: m_text
+      value: $ 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6797598693888048203, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2904,11 +5679,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6797598693888048203, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
   m_PrefabInstance: {fileID: 2135200974}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2135200976 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4624717042538490523, guid: 1a4fea3c043493b4482a2d2b6adf392e, type: 3}
+  m_PrefabInstance: {fileID: 2135200974}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2016643548021740026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2910004800183102765, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
   m_PrefabInstance: {fileID: 3090995303053931177}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2016643548021740027 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+  m_PrefabInstance: {fileID: 3090995303053931177}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3001448442580226917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2917,9 +5714,61 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: name
+      value: Baltic    Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: price
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: baseRent
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: route_pos
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: mortgageValue
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[0]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[1]
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[2]
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[3]
+      value: 320
+      objectReference: {fileID: 0}
+    - target: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: rentWithHouses.Array.data[4]
+      value: 450
+      objectReference: {fileID: 0}
     - target: {fileID: 1152313650358985096, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_Name
-      value: Baltic Avenue
+      value: Baltic    Avenue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2228750383853266364, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: $ 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418514767835855245, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+      propertyPath: m_text
+      value: Baltic    Avenue
       objectReference: {fileID: 0}
     - target: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2974,6 +5823,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 405022778}
     m_Modifications:
+    - target: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: name
+      value: Income       Tax
+      objectReference: {fileID: 0}
+    - target: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: price
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: baseRent
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -3022548451793837404, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: route_pos
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2910004800183102765, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13
@@ -3014,9 +5879,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4683932230633887840, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: m_text
+      value: Income       Tax
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478724722598104425, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
+      propertyPath: m_text
+      value: Pay $ 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6854898041411368115, guid: 0f389c1c4d2dd6c46ba0a63e484f1da5, type: 3}
       propertyPath: m_Name
-      value: Income Tax
+      value: Income       Tax
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3028,11 +5901,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8395898252076704500, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
   m_PrefabInstance: {fileID: 3001448442580226917}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8849868970891492413 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8397545239943787025, guid: 10444024f5e67454fb12fc8ddf9fb6a2, type: 3}
+  m_PrefabInstance: {fileID: 3001448442580226917}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1313179790}
-  - {fileID: 239853574}
+  - {fileID: 1700619796}
   - {fileID: 125492840}
+  - {fileID: 7873489}
+  - {fileID: 1313179790}
+  - {fileID: 789826740}
+  - {fileID: 239853574}
+  - {fileID: 1120128730}
+  - {fileID: 938939514}
   - {fileID: 405022778}
+  - {fileID: 1728458404}

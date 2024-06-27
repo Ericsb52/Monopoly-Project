@@ -167,7 +167,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.4
+  m_fontSize: 0.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -511,11 +511,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48f6e53e4986d114bb2eca08419489e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Utility Node
+  gameBoard: {fileID: 0}
   type: 1
+  name: Utility Node
+  ownerName: 
+  propColor: {r: 0, g: 0, b: 0, a: 0}
+  route_pos: 0
+  price: 150
+  currentRent: 0
+  baseRent: 0
+  rentWithHouses: 
+  isMotgaged: 0
+  mortgageValue: 75
+  baseColor: {r: 0.8039216, g: 0.9019608, b: 0.8156863, a: 1}
+  mortgageColor: {r: 0.5647059, g: 0.5647059, b: 0.5647059, a: 1}
+  textfields:
+  - {fileID: 7678134591715450491}
+  - {fileID: 5881413802638561291}
+  - {fileID: 5408796239534293535}
+  images:
+  - {fileID: 6971847286636805921}
+  - {fileID: 6009193605045390698}
+  - {fileID: 9137169802343041100}
+  colors: []
   nameText: {fileID: 7678134591715450491}
   costText: {fileID: 5881413802638561291}
   ownerText: {fileID: 5408796239534293535}
+  colorField: {fileID: 0}
+  ownerField: {fileID: 9137169802343041100}
+  background: {fileID: 6971847286636805921}
 --- !u!1 &3557083276701610809
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,7 +845,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $ 100
+  m_text: $ 150
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
