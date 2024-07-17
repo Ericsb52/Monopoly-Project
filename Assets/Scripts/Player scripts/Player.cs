@@ -15,27 +15,24 @@ public class Player
     
     public PlayerType playerType;
     public string name;
-    [SerializeField]
-    int money;
+    
+    public int money;
     public Node currentNode;
-    [SerializeField]
-    bool isInJail;
-    [SerializeField]
-    int numTurnsInJail;
-    [SerializeField]
-    GameObject myToken;
+
+    
+    public bool isInJail;
+    
+    public int numTurnsInJail;
+
+    
+    public GameObject myToken;
     public Sprite icon;
-    [SerializeField]
-    List<Node> myProps = new List<Node>();
+    
+    public List<Node> myProps = new List<Node>();
     public PlayerInfo playerInfo;
     
 
-
-    // AI Varialbles
-    const int high = 500;
-    const int low = 50;
-    [Range(low,high)]
-    int aiMoneySavity;
+    public int aiMoneySavity;
 
 
 
@@ -52,18 +49,27 @@ public class Player
         currentNode = startNode;
         this.money = money;
         playerInfo = info;
-        playerInfo.updateInfo(name, money, icon);
+        
         if (playerType!=PlayerType.HUMAN)
         {
             int tempindex = Random.Range(0, GameManager.instance.aiNames.Count);
             name = GameManager.instance.aiNames[tempindex];
             GameManager.instance.aiNames.RemoveAt(tempindex);
-            tempindex = Random.Range(0, GameManager.instance.tokens.Count);
-            icon = GameManager.instance.tokens[tempindex];
+            tempindex = Random.Range(0, GameManager.instance.token_img.Count);
+            icon = GameManager.instance.token_img[tempindex];
+            GameManager.instance.token_img.RemoveAt(tempindex);
+            myToken = GameManager.instance.tokens[tempindex];
             GameManager.instance.tokens.RemoveAt(tempindex);
-            aiMoneySavity = Random.Range(Player.low, Player.high);
+            aiMoneySavity = Random.Range(50,500);
         }
-        
+
+        playerInfo.updateInfo(name, money, icon);
+
+    }
+
+    public void setToken(GameObject token)
+    {
+        myToken = token;
     }
 
 }

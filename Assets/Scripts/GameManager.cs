@@ -6,23 +6,38 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    [SerializeField]
-    Board gameBoard;
-    [SerializeField]
-    List<Player> playerList = new List<Player>();
-    [SerializeField]
-    int currentPlayerIndex = 0;
-    [SerializeField]
-    int maxTurnesInJail = 3;
-    [SerializeField]
-    int startMoney = 2000;
-    [SerializeField] int passGoMoney = 200;
+    public Board gameBoard;
 
-    [SerializeField]
-    GameObject playerInfoPrefab;
-    [SerializeField] Transform playerPanel;
+    // player list
+    [Header("player settings")]
+    public List<Player> playerList = new List<Player>();
+    public int currentPlayerIndex = 0;
+
+    // player info panel 
+    public GameObject playerInfoPrefab;
+    public Transform playerPanel;
+
+    // game setting values
+    [Header("golbal game settings")]
+    
+    public int maxTurnesInJail = 3;
+    
+    public int startMoney = 2000;
+    public int passGoMoney = 200;
+
+
+
+    // ai info lists
+    [Header("Game Info assets")]
     public List<string> aiNames = new List<string>();
-    public List<Sprite> tokens = new List<Sprite>();
+    public List<Sprite> token_img = new List<Sprite>();
+    public List<GameObject> tokens = new List<GameObject>();
+
+    // dice roll info
+    int[] rolledDice;
+    bool rolled_a_double;
+    int doubleCount;
+
 
 
 
@@ -40,12 +55,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < playerList.Count; i++)
-        {
-            GameObject infoObj = Instantiate(playerInfoPrefab, playerPanel,false);
-            PlayerInfo info = infoObj.GetComponent<PlayerInfo>();
-            playerList[i].Init(gameBoard.route[0], startMoney, info);
-        }
+        Init();
+        playerList[currentPlayerIndex].playerInfo.ToggleTurn();
     }
 
     // Update is called once per frame
@@ -53,4 +64,36 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
+    void Init()
+    {
+        for (int i = 0; i < playerList.Count; i++)
+        {
+            GameObject infoObj = Instantiate(playerInfoPrefab, playerPanel, false);
+            PlayerInfo info = infoObj.GetComponent<PlayerInfo>();
+            playerList[i].Init(gameBoard.route[0], startMoney, info);
+            GameObject newToken = Instantiate(playerList[i].MyToken, playerList[i].currentNode.transform, false);
+            playerList[i].setToken(newToken);
+        }
+    }
+
+
+    public void RollDice()
+    {
+        rolledDice = new int[2];
+        rolledDice[0] = Random.Range(1, 7);
+        rolledDice[1] = Random.Range(1, 7);
+        rolled_a_double = rolledDice[0] == rolledDice[1];
+        print("you rolled ");
+        print(rolledDice[0]);
+        print(rolledDice[1]);
+
+    }
+
+    IEnumerator DelayBeforMove()
+    {
+        yield return new WaitForSeconds(2f);
+
+    }
+
 }
