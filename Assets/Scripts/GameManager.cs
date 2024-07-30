@@ -40,10 +40,6 @@ public class GameManager : MonoBehaviour
 
 
 
-
-
-
-
     private void Awake()
     {
         instance = this;
@@ -57,6 +53,16 @@ public class GameManager : MonoBehaviour
     {
         Init();
         playerList[currentPlayerIndex].playerInfo.ToggleTurn();
+        if (playerList[currentPlayerIndex].playerType == Player.PlayerType.AI)
+        {
+            // ai player
+            RollDice();
+        }
+        else
+        {
+            // humman player
+        }
+        
     }
 
     // Update is called once per frame
@@ -84,16 +90,47 @@ public class GameManager : MonoBehaviour
         rolledDice[0] = Random.Range(1, 7);
         rolledDice[1] = Random.Range(1, 7);
         rolled_a_double = rolledDice[0] == rolledDice[1];
-        print("you rolled ");
-        print(rolledDice[0]);
-        print(rolledDice[1]);
+        print(playerList[currentPlayerIndex].name+ " Rolled "+ rolledDice[0]+ " and "+ rolledDice[1]);
+     
+        StartCoroutine(DelayBeforeMove(rolledDice[0] + rolledDice[1]));
 
     }
 
-    IEnumerator DelayBeforMove()
+    IEnumerator DelayBeforeMove(int roll)
     {
+        
         yield return new WaitForSeconds(2f);
+      
+        gameBoard.MovePlayerToken(roll, playerList[currentPlayerIndex]);
 
     }
 
+    public void SwitchPlayer()
+    {
+        currentPlayerIndex++;
+        // rolled doubles
+
+        // over flow check
+        if (currentPlayerIndex >= playerList.Count) 
+        {
+            currentPlayerIndex = 0;
+        }
+        // check if in jail
+
+        // if player is ai
+        if (playerList[currentPlayerIndex].playerType == Player.PlayerType.AI)
+        {
+            RollDice();
+        }
+
+
+        // if humman
+            //show ui
+
+    }
+
+    public int PlayerPassedGo()
+    {
+        return passGoMoney;
+    }
 }

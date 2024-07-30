@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using System.Buffers;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +33,7 @@ public class Node : MonoBehaviour
     public NodeType type; // Type of the node
 
     [Header("Node Data")]
+    public Player owner;
     public string name; // Name of the node
     public string ownerName;
     public Color propColor; // Color assigned to this property
@@ -42,6 +44,7 @@ public class Node : MonoBehaviour
     public int currentRent;
     public int baseRent;
     public int[] rentWithHouses;
+    int numberOfHouses;
 
     [Header("Motgage")]
     public bool isMotgaged;
@@ -50,6 +53,7 @@ public class Node : MonoBehaviour
     public Color mortgageColor;
 
     [Header("Node Components")]
+    
     public TextMeshProUGUI[] textfields; // Array of UI text elements
     public Image[] images; // Array of UI image elements
     public Color[] colors; // Array of colors for properties
@@ -91,13 +95,14 @@ public class Node : MonoBehaviour
         // If the node is a property, initialize its UI elements
         if (type == NodeType.Property)
         {
-            nameText = textfields[0]; // Assign the first text field to nameText
+            /*nameText = textfields[0]; // Assign the first text field to nameText
             costText = textfields[1]; // Assign the second text field to costText
             ownerText = textfields[2]; // Assign the third text field to ownerText
             background = images[0];
             colorField = images[1]; // Assign the second image to colorField
-            ownerField = images[2];
-           
+            ownerField = images[2];*/
+            
+
 
             // Determine the property color based on the position in the route
             for (int i = 0; i < 8; i++)
@@ -114,16 +119,17 @@ public class Node : MonoBehaviour
             costText.text = "$ " + price;
             colorField.color = propColor; // Set the color of the colorField
             mortgageValue = (int)price/2;
+            
         }
 
         // If the node is a utility or railroad, initialize its UI elements
         if (type == NodeType.Utility || type == NodeType.RailRoad)
         {
-            nameText = textfields[0];
+            /*nameText = textfields[0];
             costText = textfields[1];
             ownerText = textfields[2];
             background = images[0];
-            ownerField = images[2];
+            ownerField = images[2];*/
 
             nameText.text = name;
             costText.text = "$ " + price;
@@ -145,16 +151,18 @@ public class Node : MonoBehaviour
             nameText.text = name;
             costText.text = "Pay $ " + price;
         }
+
+        OnOwnerUpdate();
+        UnMortgageProp();
+        
+
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        // Initialization code (if any) can go here
-        if (isMotgaged)
-        {
-            MortgageProperty();
-        }
+        
+        
     }
 
     // Update is called once per frame
@@ -169,14 +177,22 @@ public class Node : MonoBehaviour
     public int MortgageProperty()
     {
         isMotgaged = true;
-        background.color = mortgageColor;
+        if(background!= null)
+        {
+            background.color = mortgageColor;
+        }
+       
         return mortgageValue;
     }
 
     public void UnMortgageProp()
     {
-        isMotgaged = true;
-        background.color = baseColor;
+        isMotgaged = false;
+        if(background != null)
+        {
+            background.color = baseColor;
+        }
+        
     }
 
 
@@ -194,15 +210,171 @@ public class Node : MonoBehaviour
     {
         if (ownerField!= null)
         {
-            if(ownerText.text!=null)
+            if(owner.name == "")
             {
-                ownerField.gameObject.SetActive(true);
+                ownerField.gameObject.SetActive(false);
+                
             }
             else
             {
-                ownerField.gameObject.SetActive(false);
-                ownerText.text = "";
+                ownerField.gameObject.SetActive(true);
+                ownerName = owner.name;
+                ownerText.text = ownerName;
+                
             }
         }
+    }
+
+    public void PlayerLandedOnNode(Player curplayer)
+    {
+        bool playerIsHuman = curplayer.playerType == Player.PlayerType.HUMAN;
+
+        switch (type)
+        {
+            case NodeType.Property:
+
+                if (playerIsHuman)
+                {
+                    // show ui for humman
+                    // if not owned and we are not the owner and not motgaged pay rent
+                    if (owner.name != "" && owner != curplayer && !isMotgaged)
+                    {
+
+                        // calculate rent
+                        CalculatePropRent();
+
+                        // pay rent to owner
+
+                        // show message to display info
+
+
+                    }
+                    else if (owner.name == ""  )
+                    {
+                        // show buy prop ui
+
+                    }
+                    else
+                    {
+                        // is unowned but dont have the money
+                        // show message to display info
+                    }
+                }
+                else
+                {
+                    // if not owned and we are not the owner and not motgaged pay rent
+                    if(owner.name != "" && owner != curplayer && !isMotgaged)
+                    {
+
+                        // calculate rent
+                        CalculatePropRent();
+
+                        // pay rent to owner
+
+                        // show message to display info
+
+
+                    }
+                    else if (owner.name == "" /* and if we have the money*/ )
+                    {
+                        // buy prop
+
+                        // show message to display info
+                    }
+                    else
+                    {
+                        // is unowned but dont have the money
+                        // show message to display info
+                    }
+                }
+
+                break;
+            case NodeType.Utility: 
+                
+                
+                break;
+            case NodeType.RailRoad: 
+                
+                
+                break;
+            case NodeType.Tax: 
+                
+                
+                break;
+            case NodeType.FreeParking: 
+                
+                
+                break;
+            case NodeType.GoToJail: 
+                
+                
+                break;
+            case NodeType.Chance: 
+                
+                
+                break;
+            case NodeType.CommunityChest: 
+                
+                
+                break;
+
+
+        }
+
+        if(playerIsHuman)
+        {
+            // human 
+            // show ui
+        }
+        else
+        {
+            // ai
+            Invoke("ContinueGame", 2f);
+        }
+
+    }
+    void ContinueGame()
+    {
+        // if last roll was a double
+        // roll again
+
+        GameManager.instance.SwitchPlayer();
+    }
+    public void CalculatePropRent()
+    {
+        
+        switch (numberOfHouses)
+        {
+            case 0:
+                // if we owne all in set
+                bool allOwned = true; // replace with a function latter
+                if (allOwned)
+                {
+                    currentRent = baseRent * 2;
+                }
+                else
+                {
+                    currentRent = baseRent;
+                }
+                break;
+            case 1:
+                currentRent = rentWithHouses[0];
+                break;
+            case 2:
+                currentRent = rentWithHouses[1];
+                break;
+            case 3:
+                currentRent = rentWithHouses[2];
+                break;
+            case 4:
+                currentRent = rentWithHouses[3];
+                break;
+            case 5:
+                currentRent = rentWithHouses[4];
+                break;
+
+        }
+
+        
     }
 }

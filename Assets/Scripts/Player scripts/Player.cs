@@ -72,4 +72,28 @@ public class Player
         myToken = token;
     }
 
+    public void SetCurrentNode(Node node)
+    {
+        currentNode = node;
+        // player landed on node 
+        node.PlayerLandedOnNode(this);
+
+        // if ai player
+        
+            // check to unMortgage
+
+            // can build houses
+
+            // check for trades
+
+            // check if can buy prop
+
+    }
+
+    public void CollectMoney(int amount)
+    {
+        money += amount;
+        playerInfo.SetCash(money);
+    }
+
 }

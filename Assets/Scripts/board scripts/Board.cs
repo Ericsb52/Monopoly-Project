@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {
+    [System.Serializable]
+    public class NodeSet
+    {
+
+    }
+
+    [SerializeField]
+    List<NodeSet> allNodesInSet = new List<NodeSet>();
+
     public List<Node> route = new List<Node>();
 
     private void OnValidate()
@@ -43,10 +52,51 @@ public class Board : MonoBehaviour
         }
     }
 
+    public void MovePlayerToken(int steps,Player player)
+    {
+        StartCoroutine(MovePlayerInSteps(steps, player));
+    }
 
+    IEnumerator MovePlayerInSteps(int steps, Player player)
+    {
+        int stepLeft = steps;
+        GameObject tokenToMove = player.MyToken;
+        int indexOnBoard = route.IndexOf(player.CurrentNode);
+        bool moveOverGo = false;
+        while(stepLeft > 0)
+        {
+            indexOnBoard++;
+            // is this over go
+            if(indexOnBoard > route.Count - 1)
+            {
+                indexOnBoard = 0;
+                moveOverGo= true;
+            }
+            // get start and end pos of the move
+            Vector3 startPos = tokenToMove.transform.position;
+            Vector3 endPos = route[indexOnBoard].transform.position;
+            // make the move
+            while (MoveToNextNode(tokenToMove, endPos, 20f)) 
+            { 
+                yield return null;
+            }
+            stepLeft--;
 
+        }
+        // get go money
+        if (moveOverGo)
+        {
+            // pay the player
+            player.CollectMoney(GameManager.instance.PlayerPassedGo());
+        }
+        player.SetCurrentNode(route[indexOnBoard]); 
+    }
 
-
+    bool MoveToNextNode(GameObject token, Vector3 endpos, float speed)
+    {
+        token.transform.LookAt(endpos);
+        return endpos != (token.transform.position = Vector3.MoveTowards(token.transform.position, endpos, speed*Time.deltaTime));
+    }
 
 
 

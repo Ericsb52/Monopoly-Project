@@ -374,7 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8078432, g: 0.9058824, b: 0.8196079, a: 1}
+  m_Color: {r: 0.8039216, g: 0.9019608, b: 0.8156863, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -513,6 +513,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameBoard: {fileID: 0}
   type: 1
+  owner:
+    playerType: 0
+    name: 
+    money: 0
+    currentNode: {fileID: 0}
+    isInJail: 0
+    numTurnsInJail: 0
+    myToken: {fileID: 0}
+    icon: {fileID: 0}
+    myProps: []
+    playerInfo: {fileID: 0}
+    aiMoneySavity: 0
   name: Utility Node
   ownerName: 
   propColor: {r: 0, g: 0, b: 0, a: 0}
@@ -528,11 +540,9 @@ MonoBehaviour:
   textfields:
   - {fileID: 7678134591715450491}
   - {fileID: 5881413802638561291}
-  - {fileID: 5408796239534293535}
   images:
   - {fileID: 6971847286636805921}
   - {fileID: 6009193605045390698}
-  - {fileID: 9137169802343041100}
   colors: []
   nameText: {fileID: 7678134591715450491}
   costText: {fileID: 5881413802638561291}
@@ -711,7 +721,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Owner Name
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -931,7 +941,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8405184700152250124
 RectTransform:
   m_ObjectHideFlags: 0
